@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Details | Ahmed Mahmoud</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Ubuntu', sans-serif;
+      background: url('img/Smoke\ Background\,\ Black\ and\ White\,\ Simple\ and\ Cool\,\ T-Shirt\ \(Website\).png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .project-container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 100px 20px;
+      background: rgba(0,0,0,0.7);
+      border-radius: 20px;
+    }
+
+    .project-container h1 {
+      text-align: center;
+      font-size: 70px;
+      color: #dbcf1e;
+      margin-bottom: 40px;
+    }
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 صور في الصف */
+  gap: 20px;                             /* مسافة بين الصور */
+  justify-items: center;                 /* يخلي الصور في النص */
+  padding: 20px;
+}
+
+.project-gallery img {
+  width: 100%;
+  max-width: 1050px;       /* أقصى عرض للصورة */
+  height: 600px;
+  object-fit: cover;      /* يحافظ على تناسق الصورة */
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.project-gallery img:hover {
+  transform: scale(1.6);
+}
+
+
+
+    .project-info {
+      font-size: 25px;
+      line-height: 1.7;
+    }
+
+    .project-info h2 {
+      color: #48b368;
+      margin-bottom: 15px;
+    }
+    .project-info p{
+
+         font-size: 25px;
+
+    }
+    .back-btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #00bfff;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 30px;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      background: #009acd;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .project-container {
+        padding: 60px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="project-container">
+    <h1> Sales data (Power pi Dashboard )</h1>
+
+    <div class="project-gallery">
+      <img src="img/powe pi model.png" alt="Dashboard Screenshot 1">
+       <img src="img/power home.png" alt="Dashboard Screenshot 1"> 
+       <img src="img/power1.png" alt="Dashboard Screenshot 1"> 
+       <img src="img/power2.png" alt="Dashboard Screenshot 1">
+        <img src="img/power 3.png" alt="Dashboard Screenshot 1">
+         <img src="img/power 4.png" alt="Dashboard Screenshot 1">
+          <img src="img/power5.png" alt="Dashboard Screenshot 1">
+           <img src="img/power6.png" alt="Dashboard Screenshot 1">
+            <img src="img/power7.png" alt="Dashboard Screenshot 1">
+             <img src="img/power8.png" alt="Dashboard Screenshot 1">
+              <img src="img/power9.png" alt="Dashboard Screenshot 1">
+               
+    </div>
+
+    <div class="project-info">
+      <h2>Project Overview</h2>
+      <p>
+        This power pi dashboard project provides a comprehensive overview of sales performance and KPIs. 
+        It includes interactive dashboard, advanced charts, and Power Query transformations to clean and data modeling <br>
+        Highlights in project <br>
+        Total transaction: 9,994<br>
+        Total Sales: 2.30 M<br>
+        Total Profit: 286,40 K<br>
+        Total Quantity : 38 K<br>
+        AVG. Discount: 15.6%<br>
+        
+      </p>
+
+      <h2>Key Features</h2>
+      <ul>
+        <li>Data cleaning using Power Query</li>
+        <li>Data modeling </li>
+        <li>use dax for create new measures</li>
+        <li>use cocdtional fomating to create highlight on the loss   </li>
+        <li>Interactive dashboard with slicers and filters</li>
+        <li>Insightful KPI calculations</li>
+      </ul>
+
+      <h2>Technologies Used</h2>
+      <p> Power Query , Data Modeling ,DAX (Measures & Calculated Columns,calculated tables) , Conditional Formatting , Drillthrough Retention Rate by Customer and Acquisition Rate by Customer ,  Bookmarks 
+
+
+    </div>
+
+    <a href="index.html#projects" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Projects</a>
+  </div>
+</body>
+</html>

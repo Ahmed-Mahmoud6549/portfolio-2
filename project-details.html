@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Details | Ahmed Mahmoud</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Ubuntu', sans-serif;
+      background: url('img/Smoke\ Background\,\ Black\ and\ White\,\ Simple\ and\ Cool\,\ T-Shirt\ \(Website\).png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .project-container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 100px 20px;
+      background: rgba(0,0,0,0.7);
+      border-radius: 20px;
+    }
+
+    .project-container h1 {
+      text-align: center;
+      font-size: 70px;
+      color: #dbcf1e;
+      margin-bottom: 40px;
+    }
+
+    .project-gallery {
+    display: flex;           /* فعل الفليكس */
+    justify-content: center; /* محاذاة أفقيًا في النص */
+    align-items: center;     /* محاذاة عموديًا في النص */
+    min-height: 550px;       /* ارتفاع الحاوية */
+    }
+
+    .project-gallery img {
+    width: 1050px;
+    height: 500px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+    }
+
+    /* لو عايز تأثير تكبير عند المرور */
+    .project-gallery img:hover {
+    transform: scale(1.08);
+    }
+
+
+    .project-gallery img:hover {
+      transform: scale(1.8);
+    }
+
+    .project-info {
+      font-size: 25px;
+      line-height: 1.7;
+    }
+
+    .project-info h2 {
+      color: #48b368;
+      margin-bottom: 15px;
+    }
+    .project-info p{
+
+         font-size: 25px;
+
+    }
+    .back-btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #00bfff;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 30px;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      background: #009acd;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .project-container {
+        padding: 60px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="project-container">
+    <h1> Sales data (Power sale  company )</h1>
+
+    <div class="project-gallery">
+      <img src="img/exel2.png" alt="Dashboard Screenshot 1">
+    </div>
+
+    <div class="project-info">
+      <h2>Project Overview</h2>
+      <p>
+        This Excel dashboard project provides a comprehensive overview of sales performance and KPIs. 
+        It includes interactive pivot tables, advanced charts, and Power Query transformations to clean <br>
+        Highlights in project <br>
+        Total Sales: 250,142<br>
+        Total Profit: 11,920<br>
+        Total Quantity Sold: 2,858<br>
+        AVG. Discount: 13%<br>
+        Top Region: West - 182,833 in sales<br>
+        Leading Segment: Consumer (50% share)
+      </p>
+
+      <h2>Key Features</h2>
+      <ul>
+        <li>Data cleaning using Power Query</li>
+        <li>Dynamic Pivot Tables and charts</li>
+        <li>Interactive dashboard with slicers and filters</li>
+        <li>Insightful KPI calculations</li>
+      </ul>
+
+      <h2>Technologies Used</h2>
+      <p>Excel, Power Query, Power Pivot, Pivot Charts, Data Analysis</p>
+    </div>
+
+    <a href="index.html#projects" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Projects</a>
+  </div>
+</body>
+</html>
